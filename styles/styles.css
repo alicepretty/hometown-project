@@ -1,0 +1,118 @@
+:root {
+  --primary-text-color: #04476b;
+  --primary-text-subtitle-color: #0f5e88;
+}
+* {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  background-image: url("./../images/wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+}
+
+.hero-title {
+  font-size: 30px;
+  background-color: #457b9d;
+}
+.hero-subtitle {
+  font-size: 19px;
+  background-color: #1e4c69;
+}
+
+.hero-title,
+.hero-subtitle {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  max-width: 500px;
+  text-align: center;
+}
+
+.activities {
+  background-color: #f1faee;
+  padding: 50px 20px;
+  align-items: center;
+  gap: 40px;
+}
+.activity-card-section {
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 80px;
+}
+.activity-card {
+  max-width: 300px;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.circe-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.card-title {
+  color: var(--primary-text-color);
+  font-weight: 600;
+}
+.card-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-text-subtitle-color);
+}
+.about {
+  padding: 40px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-card {
+  background-color: #80b8c5e2;
+  padding: 15px;
+  border-radius: 5px;
+  width: 400px;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 4px solid var(--primary-text-color);
+}
+.about-img {
+  width: 170px;
+  border-radius: 4px;
+}
+.about-content {
+  gap: 10px;
+}
+.about-content p {
+  font-style: italic;
+  color: var(--primary-text-subtitle-color);
+  font-size: 15px;
+}
+.about-content h3 {
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+.about-content h4 {
+  font-weight: 600;
+  color: var(--primary-text-color);
+}

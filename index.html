@@ -3,29 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hometown site</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Visit Kigali</title>
   </head>
   <body>
-    <div id="main-header">
-      <h1>Visit Kigali</h1>
-      <h2>Enjoy culture and sports life in this beautiful city of Rwanda</h2>
-    </div>
-    <div id="about-section">
-      <h3>Top three activities to do in Kigali</h3>
-      <img src="/images/Kigali_Arena.jpg" alt="no image" />
-      <img src="/images/lakemuhazi.jpg" alt="no image" />
-      <img src="/images/download.jpeg" alt="no image" />
-    </div>
-    <div class="business-section">
-      <img src="/images/passport.jpeg" alt="" />
-      <h2>Your guider</h2>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
+    <section class="hero flex-col">
+      <h1 class="hero-title">Visit Kigali</h1>
+      <p class="hero-subtitle">
+        Enjoy Culture and sports in this vibrant district close to the center of
+        Kigali
       </p>
-      <h3>Emile Nsengi</h3>
-    </div>
+    </section>
+    <section class="activities flex-col">
+      <h2>Top three activities to do in Kigali</h2>
+      <div class="flex-row activity-card-section">
+        <div class="activity-card flex-col">
+          <img
+            class="circe-img"
+            src="/images/Kigali_Arena.jpg"
+            alt="no image"
+          />
+          <h3 class="card-title">Attend a show or concert</h3>
+          <p class="card-subtitle">
+            Kigali threate is a great place to spend the night out
+          </p>
+        </div>
+        <div class="activity-card flex-col">
+          <img class="circe-img" src="/images/lakemuhazi.jpg" alt="no image" />
+          <h3 class="card-title">Attend a show or concert</h3>
+          <p class="card-subtitle">
+            Kigali threate is a great place to spend the night out
+          </p>
+        </div>
+        <div class="activity-card flex-col">
+          <img class="circe-img" src="/images/download.jpeg" alt="no image" />
+          <h3 class="card-title">Attend a show or concert</h3>
+          <p class="card-subtitle">
+            Kigali threate is a great place to spend the night out
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="about flex-col">
+      <div class="about-card flex-row">
+        <img src="./images/passport.jpeg" alt="Muhorakeye" class="about-img" />
+        <div class="about-content flex-col">
+          <h3>Your Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            suscipit quae commodi quis ullam sed eveniet,
+          </p>
+          <h4>Muhorakeye</h4>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
